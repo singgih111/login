@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login/login.css">
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.19.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.19.0/firebase-auth.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Welcome Back</h1>
+            <p class="subtitle">Log in to your account</p>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" id="login-button">Login</button>
+            </form>
+            <p class="signup-link">Don't have an account? <a href="signup/signup.html">Sign up here</a></p>
+        </div>
+    </div>
+    
+    <!-- Make sure your script is treated as a module -->
+    <script type="module" src="login/login.js"></script>
+</body>
+</html>
