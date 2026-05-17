@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Firebase configuration
     const firebaseConfig = {
-        apiKey: "AIzaSyCvnm0EzA5KJaMKZ72JzGmsXoCZsLfR3D8",
-        authDomain: "nextaflix-c943a.firebaseapp.com",
-        projectId: "nextaflix-c943a",
-        storageBucket: "nextaflix-c943a.firebasestorage.app",
-        messagingSenderId: "1096742382711",
-        appId: "1:1096742382711:web:5f46cfa3eb07f3d9cb2a72",
-    };
+    apiKey: process.env.FIREBASE_API_KEY,
+    authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.FIREBASE_PROJECT_ID,
+    storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.FIREBASE_APP_ID
+};
 
     // Initialize Firebase
     let auth;
