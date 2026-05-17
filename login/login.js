@@ -4,12 +4,12 @@ import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/fir
 
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCvnm0EzA5KJaMKZ72JzGmsXoCZsLfR3D8",
-    authDomain: "nextaflix-c943a.firebaseapp.com",
-    projectId: "nextaflix-c943a",
-    storageBucket: "nextaflix-c943a.firebasestorage.app",
-    messagingSenderId: "1096742382711",
-    appId: "1:1096742382711:web:5f46cfa3eb07f3d9cb2a72"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
 };
 
 // Initialize Firebase
