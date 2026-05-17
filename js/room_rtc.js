@@ -1,4 +1,4 @@
-﻿const APP_ID = "3710cf694284408a851a38860639da7a"  //change the ID in AGORA
+﻿const APP_ID = ""  //change the ID in AGORA
 
 let uid = sessionStorage.getItem('uid')  //forcing people to have a UID
 if (!uid) {
